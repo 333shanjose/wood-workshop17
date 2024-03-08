@@ -16,7 +16,7 @@ const app=express()
 const { response } = require('express');
 var session=require('express-session');
 const corsOptions = {
-  origin: 'https://wood-workshop17.vercel.app',  //Your Client, do not write '*'
+  origin: 'https://wood-workshop17-9ehy9vkxw-e-commerce1.vercel.app',  //Your Client, do not write '*'
   credentials: true,
 };
 app.use(express.static(path.join(__dirname, "build")));
