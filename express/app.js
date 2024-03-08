@@ -13,7 +13,6 @@ const client = new MongoClient(uri);
 client.connect()
 const db = client.db('users');
 const app=express()
-const { response } = require('express');
 var session=require('express-session');
 const corsOptions = {
   origin: 'https://wood-workshop17-8vg86jiwn-e-commerce1.vercel.app',  //Your Client, do not write '*'
